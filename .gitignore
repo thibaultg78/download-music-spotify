@@ -1,3 +1,18 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Musiques téléchargées
+music/*
+!music/.gitkeep
+
+# Fichiers CSV de playlists
+playlists/ToDo/*.csv
+playlists/Done/*.csv
+!playlists/ToDo/.gitkeep
+!playlists/Done/.gitkeep
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
